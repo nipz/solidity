@@ -24,7 +24,7 @@ using namespace dev;
 using namespace dev::solidity;
 
 SymbolicVariable::SymbolicVariable(
-	Type const& _type,
+	TypePointer _type,
 	string const& _uniqueName,
 	smt::SolverInterface& _interface
 ):
